@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class function
+class Program_using_Function
 {
     String str;
     int i;
@@ -20,7 +20,7 @@ class function
 
     public static void main(String arg[])
     {
-        function f1=new function();
+        Program_using_Function f1=new Program_using_Function();
         f1.getdata();
         f1.showdata();
     }
