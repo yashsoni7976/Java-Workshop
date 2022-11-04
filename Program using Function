@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class function
+{
+    String str;
+    int i;
+    float f;
+    Scanner sc=new Scanner(System.in);
+    void getdata()
+    {
+        str=sc.nextLine();
+        i=sc.nextInt();
+        f=sc.nextFloat();
+    }
+    void showdata()
+    {
+        System.out.println(str);
+        System.out.println(i);
+        System.out.println(f);
+    }
+
+    public static void main(String arg[])
+    {
+        function f1=new function();
+        f1.getdata();
+        f1.showdata();
+    }
+}
