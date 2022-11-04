@@ -7,7 +7,6 @@ class ArmstrongUsingFunction
     {
         while(num!=0)
         {
-            int temp=num%10;
             count++;
             num/=10;
         }
