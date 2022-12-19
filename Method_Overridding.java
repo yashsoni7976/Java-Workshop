@@ -22,7 +22,7 @@ public class Main
 {
     public static void main(String[] args) {
     {
-        Base b;
+        Base b;     //Reference Object
         Base bh=new Base();
         Child ch=new Child();
         b=bh;
